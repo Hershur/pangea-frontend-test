@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/pangea-frontend-test/static/css/main.f470d51c.chunk.css",
+    "main.js": "/pangea-frontend-test/static/js/main.f9cb9dd3.chunk.js",
+    "main.js.map": "/pangea-frontend-test/static/js/main.f9cb9dd3.chunk.js.map",
+    "runtime-main.js": "/pangea-frontend-test/static/js/runtime-main.6b020c79.js",
+    "runtime-main.js.map": "/pangea-frontend-test/static/js/runtime-main.6b020c79.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/pangea-frontend-test/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.36077d8e.chunk.js": "/pangea-frontend-test/static/js/2.36077d8e.chunk.js",
+    "static/js/2.36077d8e.chunk.js.map": "/pangea-frontend-test/static/js/2.36077d8e.chunk.js.map",
+    "static/js/3.0153f33b.chunk.js": "/pangea-frontend-test/static/js/3.0153f33b.chunk.js",
+    "static/js/3.0153f33b.chunk.js.map": "/pangea-frontend-test/static/js/3.0153f33b.chunk.js.map",
+    "index.html": "/pangea-frontend-test/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/pangea-frontend-test/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.f470d51c.chunk.css.map": "/pangea-frontend-test/static/css/main.f470d51c.chunk.css.map",
+    "static/js/2.36077d8e.chunk.js.LICENSE.txt": "/pangea-frontend-test/static/js/2.36077d8e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b020c79.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.36077d8e.chunk.js",
+    "static/css/main.f470d51c.chunk.css",
+    "static/js/main.f9cb9dd3.chunk.js"
+  ]
+}
