@@ -25,18 +25,17 @@
 
 1. Adding and removing tags
 
- * Add an text input and a button to the page
+    * Add an text input and a button to the page
 
- * Once the button is clicked the text of the input element is added as a new tag into the URL hash (#tags=red,blue,purple,mytag) 
+    * Once the button is clicked the text of the input element is added as a new tag into the URL hash (#tags=red,blue,purple,mytag) 
 
- * By clicking on an item in the list the item will be removed from the list and from the URL
+    * By clicking on an item in the list the item will be removed from the list and from the URL
 
  
 2. Wrap the code
-
-* Encapsulate the code as a visual component ( using React .js / any other alternative javascript framework you prefer such as Vue.js ... ) 
- * Place the component on the page three times
+    * Encapsulate the code as a visual component ( using React .js / any other alternative javascript framework you prefer such as Vue.js ... ) 
+    * Place the component on the page three times
 
 3. Visual appearance
 
- * Use some existing style library (material, bootstrap ...)
+    * Use some existing style library (material, bootstrap ...)
