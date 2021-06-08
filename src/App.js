@@ -4,9 +4,9 @@ import { useState, useEffect, useRef } from "react";
 
 function App() {
   const hash = new URL(document.URL).hash;
-  // if(!hash){
-  //   window.location.replace('/#tags=red,blue,purple');
-  // }
+  if(!hash){
+    window.location.hash = '#tags=red,blue,purple';
+  }
   
   const hashToArr = (hash) => hash?.split("=")[1]?.split(',')?.map((color,i) => ({id: i, color: color}));
   const [tags, setTags] = useState(hashToArr(hash));
@@ -16,13 +16,13 @@ function App() {
   const addColor = (e) => {
     tags.push({id: tags.length, color: colorField.current.value});
     let colors = tags.map(color => color.color.toLowerCase());
-    window.location.replace(`${window.location.hash.split('=')[0]}=${[...colors]}`);
+    window.location.hash = `${window.location.hash.split('=')[0]}=${[...colors]}`;
   }
 
   const removeColor = (e) => {
     let filteredColors = tags.filter(tag => tag.id !== +e.target.id);
     let colors = filteredColors.map(color => color.color.toLowerCase());
-    window.location.replace(`${window.location.hash.split('=')[0]}=${[...colors]}`);
+    window.location.hash = `${window.location.hash.split('=')[0]}=${[...colors]}`;
   }
 
   useEffect(()=> {
