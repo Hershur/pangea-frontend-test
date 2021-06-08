@@ -4,9 +4,9 @@ import { useState, useEffect, useRef } from "react";
 
 function App() {
   const hash = new URL(document.URL).hash;
-  if(!hash){
-    window.location.replace('/#tags=red,blue,purple');
-  }
+  // if(!hash){
+  //   window.location.replace('/#tags=red,blue,purple');
+  // }
   
   const hashToArr = (hash) => hash?.split("=")[1]?.split(',')?.map((color,i) => ({id: i, color: color}));
   const [tags, setTags] = useState(hashToArr(hash));
