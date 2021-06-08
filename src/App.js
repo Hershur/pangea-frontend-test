@@ -6,6 +6,7 @@ function App() {
   const hash = new URL(document.URL).hash;
   if(!hash){
     window.location.hash = '#tags=red,blue,purple';
+    window.location.reload();
   }
   
   const hashToArr = (hash) => hash?.split("=")[1]?.split(',')?.map((color,i) => ({id: i, color: color}));
